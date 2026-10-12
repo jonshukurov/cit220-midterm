@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # Network Latency & Port Sentinel
 
 ## Project Information
@@ -16,3 +15,6 @@ This custom system utility suite monitors local networking parameters, records i
 
 ## Execution Instructions
 Grant execution rights and run the orchestrator script in your terminal:
+```bash
+chmod +x net_sentinel.sh
+./net_sentinel.sh
